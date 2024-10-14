@@ -1,0 +1,112 @@
+/* Universal styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #F9F5F2; /* Light beige background for the whole page */
+}
+
+/* Header */
+header {
+    background-color: #2E614F; /* Dark green background */
+    padding: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; /* Align navigation links to the right */
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* Main Section */
+main {
+    background-color: #F9F5F2; /* Light beige for main section */
+    text-align: center;
+    padding: 40px 0;
+}
+
+main h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+}
+
+main img {
+    margin: 20px 0;
+    max-width: 300px; /* Set the size for the image */
+}
+
+main p {
+    color: #555; /* Grey text color */
+    font-size: 1.2em;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #E3C8B6; /* Light peach background */
+    padding: 40px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+#contact form {
+    display: inline-block;
+    background-color: red; /* Form background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for the form */
+}
+
+#contact form label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+#contact form input {
+    margin-top: 5px;
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #333; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #2E614F; 
+    padding: 20px;
+    text-align: center;
+    color: white;
+    outline: 20px solid red;
+}
